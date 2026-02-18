@@ -42,7 +42,7 @@ export const Contact = () => {
     <section className="w-full px-4 sm:px-6 lg:px-12 py-10" id="contact">
       <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
         {/* Orb */}
-        <div className="flex items-center justify-center">
+        <div className="hidden lg:flex items-center justify-center">
           <div className="w-full max-w-md sm:max-w-lg lg:max-w-xl h-80 sm:h-105 lg:h-150 relative">
             <Orb hoverIntensity={0.5} rotateOnHover={true} hue={2} forceHoverState={false} />
           </div>

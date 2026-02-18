@@ -91,7 +91,7 @@ export const HeroSection = () => {
             </a>
           </div>
 
-          <div className="flex justify-center md:justify-start sm:space-x-4 md:space-x-4 lg:space-x-6 xl:space-x-8 pt-2 text-gray-400">
+          <div className="flex justify-center md:justify-start gap-5 sm:gap-0 md:gap-0 lg:gap-0 xl:gap-0 sm:space-x-4 md:space-x-4 lg:space-x-6 xl:space-x-8 pt-2 text-gray-400">
             <ReactIconHover icons={<FaGithub />} href="https://github.com/adrcena221" />
             <ReactIconHover icons={<FaLinkedin />} href="https://www.linkedin.com/in/adrian-cena/" />
             <ReactIconHover icons={<BiLogoGmail />} copyText="adrcena123@gmail.com"

@@ -128,13 +128,12 @@ export const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ projects }) =>
       {/* Left Arrow */}
       <button
         onClick={() => scroll("left")}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#112240] hover:bg-[#1d3557] transition"
-      >
+        className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#112240] hover:bg-[#1d3557] transition">
         <FaChevronLeft size={20} className="text-white" />
       </button>
 
       {/* Carousel */}
-      <div className="px-20 py-8">
+      <div className="px-4 md:px-20 py-8">
         <div
           ref={carouselRef}
           onMouseDown={handleMouseDown}
@@ -183,7 +182,7 @@ export const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ projects }) =>
       {/* Right Arrow */}
       <button
         onClick={() => scroll("right")}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#112240] hover:bg-[#1d3557] transition"
+        className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-[#112240] hover:bg-[#1d3557] transition"
       >
         <FaChevronRight size={20} className="text-white" />
       </button>

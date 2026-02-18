@@ -31,9 +31,9 @@ interface ExpCardProps {
 
     
     return (
-      <div className="p-6 rounded-2xl flex items-center justify-center sm:gap-2 md:gap-2 lg:gap-4 xl:gap-6">
-        <h3 className="sm:text-7xl md:text-5xl lg:text-5xl xl:text-7xl font-bold text-white">{count}</h3>
-        <p className="text-gray-400 sm:text-2xl md:text-lg lg:text-lg xl:text-xl leading-tight">
+      <div className="p-6 rounded-2xl flex items-center justify-center gap-4 sm:gap-4 md:gap-4 lg:gap-4 xl:gap-6">
+        <h3 className="text-7xl sm:text-7xl md:text-5xl lg:text-5xl xl:text-7xl font-bold text-white">{count}</h3>
+        <p className="text-gray-400 text-2xl sm:text-2xl md:text-lg lg:text-lg xl:text-xl leading-tight">
           {title} <br /> {subtitle}
         </p>
       </div>
