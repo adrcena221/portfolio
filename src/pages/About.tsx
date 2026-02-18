@@ -35,7 +35,7 @@ export const About = () => {
 
                 {/* Right side */}
                 <div className="flex flex-col sm:space-y-2 md:space-y-4 lg:space-y-6 w-full md:w-lg lg:w-xl xl:w-3xl items-center text-center lg:text-left">
-                    <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-7xl font-bold mb-6 md:mb-15 lg:mb-18 xl:mb-20 text-center'>
+                    <h1 className='text-5xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-7xl font-bold mb-6 md:mb-15 lg:mb-18 xl:mb-20 text-center'>
                         About Me
                     </h1>
 

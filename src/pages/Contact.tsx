@@ -51,7 +51,7 @@ export const Contact = () => {
         {/* Form */}
         <div className="flex flex-col items-center lg:items-start text-white">
           <div className="w-full max-w-xl">
-            <h1 className="text-3xl sm:text-5xl lg:text-5xl font-bold text-center lg:text-left">
+            <h1 className="text-5xl sm:text-5xl lg:text-5xl font-bold text-center lg:text-left">
               Contact Me
             </h1>
 

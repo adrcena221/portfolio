@@ -44,7 +44,7 @@ const projects = [
 export const Projects = () => {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center">
-      <h1 className="sm:text-5xl md:text-4xl lg:text-7xl font-bold text-center text-white">
+      <h1 className="text-5xl sm:text-5xl md:text-4xl lg:text-7xl font-bold text-center text-white">
         Projects
       </h1>
 

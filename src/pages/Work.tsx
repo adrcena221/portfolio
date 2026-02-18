@@ -11,7 +11,7 @@ export const Work = () => {
       id="work"
       className="w-full flex flex-col items-center px-4 sm:px-6 lg:px-0 py-16 sm:py-20"
     >
-      <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl font-bold mb-10 sm:mb-14 lg:mb-20 text-center">
+      <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-bold mb-10 sm:mb-14 lg:mb-20 text-center">
         Work Experience
       </h1>
 

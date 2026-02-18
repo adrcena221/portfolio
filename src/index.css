@@ -38,6 +38,7 @@ body {
 }
 
 /* Scroll Animation */
+@media (max-width: 768px) {
 section {
   opacity: 0;
   transform: translateY(20px);
@@ -53,6 +54,7 @@ section.active {
   opacity: 0;
   transform: translateY(40px);
   animation: fadeSlideUp 1s ease forwards;
+}
 }
 
 @keyframes fadeSlideUp {

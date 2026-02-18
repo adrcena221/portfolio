@@ -25,7 +25,7 @@ import "../index.css";
 export const Skills = () => {
   return (
     <section className="w-full flex flex-col items-center justify-center text-white">
-      <h1 className="lg:text-7xl md:text-4xl sm:text-5xl font-bold mb-20">Skills</h1>
+      <h1 className="lg:text-7xl md:text-4xl text-5xl sm:text-5xl font-bold mb-20">Skills</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-22 text-center items-start justify-center">
         {/* Frontend */}
