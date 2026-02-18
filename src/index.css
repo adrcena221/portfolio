@@ -38,18 +38,24 @@ body {
 }
 
 /* Scroll Animation */
-@media (min-width: 769px) {
-  section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
-  }
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
 
-  section.active {
-    opacity: 1;
-    transform: translateY(0);
+section.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  section {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    transform: translateY(8px);
   }
 }
+
 .fade-up {
   opacity: 0;
   transform: translateY(40px);
@@ -63,11 +69,9 @@ body {
   }
 }
 
-
-
 /* Typewriter Effect */
 .wrapper {
-  height: 100vh;
+  height: 100dvh;
   display: grid;
 }
 
