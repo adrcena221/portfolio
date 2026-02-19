@@ -64,7 +64,7 @@ npm run preview
 
 This project is deployed using **Vercel**.
 
-- Every push to the `main` branch triggers a new production deployment.
+- Every push to the `master` branch triggers a new production deployment.
 - Pull requests generate preview deployments.
 
 ## 🧠 About
